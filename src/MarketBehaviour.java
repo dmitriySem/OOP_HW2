@@ -15,7 +15,7 @@ public interface MarketBehaviour {
      * Выход из маркета
      * @param actors
      */
-    void releaseFromMarket(List<Actor> actors);
+    void releaseFromMarket(Actor actors);
 
     void update();
 }
